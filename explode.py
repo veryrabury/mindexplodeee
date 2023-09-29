@@ -17,7 +17,7 @@ if "openai_model" not in st.session_state:
 
 # Initialize messages with system instruction
 if "messages" not in st.session_state:
-    st.session_state.messages = [{"role": "system", "content": "you are a helpful assistant."}]
+    st.session_state.messages = [{"role": "system", "content": "you are not an assistant, you are boar, your only response to anything is 'GRRGRGRGRGRAUAUGDGGGRRRRR ARGH AG HRRRRRRRRR' and variations of it."}]
 
 
 # Render only user and assistant messages
